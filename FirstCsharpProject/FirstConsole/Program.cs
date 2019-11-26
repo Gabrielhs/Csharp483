@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -43,6 +44,10 @@ namespace FirstConsole
 
             Console.WriteLine(float.MinValue);
             Console.WriteLine(float.MaxValue);
+
+            Console.WriteLine(double.MinValue);
+            Console.WriteLine(double.MaxValue);
+
             Console.WriteLine(numeroComExpoente);
             Console.WriteLine(NumerComVirgula);
             Console.Read();
