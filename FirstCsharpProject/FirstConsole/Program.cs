@@ -23,6 +23,9 @@ namespace FirstConsole
 
             float NumerComVirgula = 12.123f; // f no final especifica tipo para float somentes simples precisao (single precision)
             float numeroComExpoente = 10e6f;
+
+            decimal testedecimal = 10010000.000m;
+
             Console.WriteLine(idade);
             Console.WriteLine(byte.MaxValue);
             Console.WriteLine(byte.MinValue);
@@ -48,6 +51,9 @@ namespace FirstConsole
             Console.WriteLine(double.MinValue);
             Console.WriteLine(double.MaxValue);
 
+            Console.WriteLine(testedecimal);
+            Console.WriteLine(decimal.MinValue);  // decimal usado para valores monetarios.
+            Console.WriteLine(decimal.MaxValue);
             Console.WriteLine(numeroComExpoente);
             Console.WriteLine(NumerComVirgula);
             Console.Read();
