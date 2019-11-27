@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,6 +9,14 @@ namespace SecondConsoleApplication
 {
     class Program
     {
+        struct Cerveja
+        {
+            public string marca;
+            public int volume;
+
+        }
+
+
         static void Main(string[] args)
         {
 
@@ -41,7 +50,19 @@ namespace SecondConsoleApplication
             Console.WriteLine(booleana.GetType());
             Console.WriteLine(valorDecimal.GetType());
             Console.WriteLine(valorFloat.GetType());
+
+            Cerveja cerva; // structs copiam valores em uma nova area de memoria.
+            cerva.marca = "BOLADA";
+            cerva.volume = 1;
+
+            Console.WriteLine(cerva);
+            Console.WriteLine(cerva.marca);
+            Console.WriteLine(cerva.volume);
+
             Console.Read();
+
+
+
             
 
         }
