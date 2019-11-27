@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstConsole", "FirstConsol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondConsoleApplication", "SecondConsoleApplication\SecondConsoleApplication.csproj", "{709EA6A6-E095-4F90-9052-C5F017C262EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3dApllicationReferenceTypes", "3dApllicationReferenceTypes\3dApllicationReferenceTypes.csproj", "{12EAAF07-702B-415A-839C-CCB2F015FD0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{709EA6A6-E095-4F90-9052-C5F017C262EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{709EA6A6-E095-4F90-9052-C5F017C262EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{709EA6A6-E095-4F90-9052-C5F017C262EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12EAAF07-702B-415A-839C-CCB2F015FD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12EAAF07-702B-415A-839C-CCB2F015FD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12EAAF07-702B-415A-839C-CCB2F015FD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12EAAF07-702B-415A-839C-CCB2F015FD0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
