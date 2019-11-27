@@ -59,12 +59,21 @@ namespace SecondConsoleApplication
             Console.WriteLine(cerva.marca);
             Console.WriteLine(cerva.volume);
 
+            DiaDaSemana dia = (DiaDaSemana)3;
+            Console.WriteLine(dia);
+
             Console.Read();
+        }
 
-
-
-            
-
+        [Flags]
+        enum DiaDaSemana  { // Pode ser explicitado o tipo de cada variável ex : string;
+            Dom=1,
+            Seg=2,
+            Ter=4,
+            Qua=8,
+            Qui=16,
+            Sex=32,
+            Sab=64
         }
     }
 }
