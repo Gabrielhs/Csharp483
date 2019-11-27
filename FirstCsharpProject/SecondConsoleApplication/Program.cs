@@ -33,6 +33,14 @@ namespace SecondConsoleApplication
                 Console.WriteLine(" xablau !! ");
             }
 
+
+            var booleana = true;
+            var valorFloat = 10.50f;
+            var valorDecimal = 10.5m;
+
+            Console.WriteLine(booleana.GetType());
+            Console.WriteLine(valorDecimal.GetType());
+            Console.WriteLine(valorFloat.GetType());
             Console.Read();
             
 
