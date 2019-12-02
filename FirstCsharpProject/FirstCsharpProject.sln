@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondConsoleApplication", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3dApllicationReferenceTypes", "3dApllicationReferenceTypes\3dApllicationReferenceTypes.csproj", "{12EAAF07-702B-415A-839C-CCB2F015FD0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp483.Dados", "CSharp483.Dados\CSharp483.Dados.csproj", "{F6FD961B-24CC-4EDD-98B2-5EC7737EBA62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{12EAAF07-702B-415A-839C-CCB2F015FD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12EAAF07-702B-415A-839C-CCB2F015FD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12EAAF07-702B-415A-839C-CCB2F015FD0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6FD961B-24CC-4EDD-98B2-5EC7737EBA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6FD961B-24CC-4EDD-98B2-5EC7737EBA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6FD961B-24CC-4EDD-98B2-5EC7737EBA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6FD961B-24CC-4EDD-98B2-5EC7737EBA62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
