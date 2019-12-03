@@ -12,6 +12,5 @@ namespace CSharp483.Dados
         public string Sobrenome { get; set; }
         public byte Idade { get; set; } 
 
-
     }
 }
