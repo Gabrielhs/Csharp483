@@ -76,11 +76,16 @@
     <Compile Include="Migrations\201912022347481_CreateTablePRoduto.designer.cs">
       <DependentUpon>201912022347481_CreateTablePRoduto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912042141471_CreateTipoParanaue.cs" />
+    <Compile Include="Migrations\201912042141471_CreateTipoParanaue.designer.cs">
+      <DependentUpon>201912042141471_CreateTipoParanaue.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Pessoa.cs" />
     <Compile Include="Produto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio\PessoaRepositorio.cs" />
+    <Compile Include="Tipo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Banco\DadosDB.mdf">
@@ -113,6 +118,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912022347481_CreateTablePRoduto.resx">
       <DependentUpon>201912022347481_CreateTablePRoduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912042141471_CreateTipoParanaue.resx">
+      <DependentUpon>201912042141471_CreateTipoParanaue.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

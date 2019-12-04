@@ -11,8 +11,15 @@ namespace CSharp483.Dados.Contexto
     {
         public DbSet <Pessoa> Pessoa { get; set; }
         public DbSet <Produto> Produto { get; set; }
+        public DbSet <Tipo> Tipos { get; set; }
         public DadosContext() : base(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\320045758\Documents\GbarielhsProway\Csharp483\FirstCsharpProject\CSharp483.Dados\Banco\DadosDB.mdf;Integrated Security=True")
         {
+
+            // Install-package EntityFramework.
+            // Enable Migrations
+            // Add-Migration
+            // Update-Database
+
                     
         }
     }

@@ -16,11 +16,16 @@ namespace ConsoleAppData
             foreach (var p in lista)
             {
                 Console.WriteLine( $"{p.Id}, {p.Nome}, {p.Idade} ");
-                    
             }
 
+            //Console.Read();
+
+            var pe = pRepos.BuscaPessoaPorId(2);
+            Console.WriteLine($"{pe.Id}, {pe.Nome}, {pe.Idade} ");
             Console.Read();
 
         }
+
+
     }
 }

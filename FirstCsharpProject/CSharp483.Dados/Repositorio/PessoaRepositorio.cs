@@ -12,11 +12,22 @@ namespace CSharp483.Dados.Repositorio
         public List<Pessoa> ListarTodos()
         {
             List<Pessoa> lista = new List<Pessoa>();
-            DadosContext contexto = new DadosContext();
-
-            lista = contexto.Pessoa.ToList();
-
+            using (DadosContext contexto = new DadosContext())
+            {
+                lista = contexto.Pessoa.ToList();
+            }
             return lista;
+        }
+
+        public Pessoa BuscaPessoaPorId(int id)
+        {
+            Pessoa p = new Pessoa();
+            using (DadosContext context = new DadosContext())
+            {
+                p = context.Pessoa.Find(id);
+            }
+
+            return p;
         }
     }
 }
