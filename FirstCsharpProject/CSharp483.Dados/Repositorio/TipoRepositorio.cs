@@ -40,5 +40,21 @@ namespace CSharp483.Dados.Repositorio
                 contexto.SaveChanges();
             }
         }
+
+        public void Editar(Tipo tipo)
+        {
+            using (DadosContext ctxt = new DadosContext())
+            {
+                Tipo tipodb = BsucarPorId(tipo.Id);
+                if (tipodb != null)
+                {
+                    tipodb = tipo;
+
+                    ctxt.SaveChanges();
+                }
+
+            }
+
+        }
     }
 }

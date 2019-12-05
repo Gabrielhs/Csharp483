@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity.Core.Mapping;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -30,5 +31,23 @@ namespace FirstCsharpProject.SolutionWebApppliication.Controllers
             ModelState.Clear();
             return RedirectToAction("Index");
         }
+
+
+        [HttpGet]
+        public ActionResult Edit(int ID)
+        {
+            TipoRepositorio repo = new TipoRepositorio();
+            Tipo model = repo.BsucarPorId(ID);
+            return View(model);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Tipo model)
+        {
+            TipoRepositorio tporepo =new TipoRepositorio();
+            tporepo.Editar(model);
+            return View();
+        }
+
     }
 }
