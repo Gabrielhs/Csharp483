@@ -58,6 +58,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.WorkflowServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -80,11 +81,16 @@
     <Compile Include="Migrations\201912042141471_CreateTipoParanaue.designer.cs">
       <DependentUpon>201912042141471_CreateTipoParanaue.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912042154469_AdicionadoTipoAoProduto.cs" />
+    <Compile Include="Migrations\201912042154469_AdicionadoTipoAoProduto.designer.cs">
+      <DependentUpon>201912042154469_AdicionadoTipoAoProduto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Pessoa.cs" />
     <Compile Include="Produto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio\PessoaRepositorio.cs" />
+    <Compile Include="Repositorio\TipoRepositorio.cs" />
     <Compile Include="Tipo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +127,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912042141471_CreateTipoParanaue.resx">
       <DependentUpon>201912042141471_CreateTipoParanaue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912042154469_AdicionadoTipoAoProduto.resx">
+      <DependentUpon>201912042154469_AdicionadoTipoAoProduto.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

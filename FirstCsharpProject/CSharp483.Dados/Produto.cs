@@ -13,5 +13,8 @@ namespace CSharp483.Dados
         public string Modelo { get; set; }
         public DateTime AnoFabricacao { get; set; }
         public string Marca { get; set; }
+
+        public Tipo Tipo { get; set; }
+
     }
 }
